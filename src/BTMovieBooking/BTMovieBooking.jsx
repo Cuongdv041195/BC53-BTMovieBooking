@@ -12,7 +12,7 @@ export const BTMovieBooking = () => {
           <h1 className="text-white">BTMovieBooking</h1>
           <div className="row">
             <div className="col-8">
-              <div className="p-3 text-white text-center bg-dark fw-bold mb-5">
+              <div className="p-3 text-white text-center bg-dark fw-bold mb-5 sreen">
                 SCREEN
               </div>
               <ChairList data={data} />
