@@ -1,0 +1,44 @@
+.Chair {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #111;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: white;
+    font-size: 14px;
+}
+
+.Chair.booking {
+    background: rgba(220, 53, 69, 1) !important;
+    color: #fff;
+    border: transparent;
+}
+
+.Chair.booked {
+    background: rgb(108, 117, 125);
+    color: #fff;
+    border: transparent;
+    pointer-events: none;
+}
+.disabled{
+    pointer-events: none;
+    cursor: not-allowed;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    color: yellow;
+}
+.main{
+    background: url(../../public/img/bgmovie.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.background{
+    background: rgba(0 ,0 ,0, 0.8);
+}
+
