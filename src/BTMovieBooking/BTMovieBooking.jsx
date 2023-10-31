@@ -4,7 +4,7 @@ import { ChairList } from './ChairList'
 import { Result } from './Result'
 
 export const BTMovieBooking = () => {
-  console.log({ data })
+  
   return (
     <div className="main">
       <div className="background">
